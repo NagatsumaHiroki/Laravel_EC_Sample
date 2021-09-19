@@ -1,0 +1,7 @@
+---起動コマンド
+docker-compose up -d
+-----停止
+docker compose stop
+
+URL:http://localhost
+
