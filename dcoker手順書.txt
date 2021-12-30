@@ -2,6 +2,14 @@
 docker-compose up -d
 -----停止
 docker compose stop
+---------------コンテナ一覧
+docker-compose ps
+-----コンテナの中に入る
+docker container exec -it コンテナ名 bash
 
 URL:http://localhost
 
+
+//PHP laravelコマンド
+マイグレーションの巻き戻し
+php artisan migrate:refresh
